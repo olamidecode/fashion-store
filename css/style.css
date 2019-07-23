@@ -1,0 +1,10 @@
+.shipping{
+        width: 1900px;
+        height: 53px;
+        background-color: black;
+        text-align: center;
+        margin: auto;
+        color: white;
+        font-size: 18px;
+        padding-top: 8px;
+}
