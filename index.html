@@ -1,35 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-    <title>Nate-b store</title>
+	<title>Boot</title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<!-- bootstrap cdn link -->
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+	<!-- font awsome cdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- linear icons cdn -->
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
 </head>
-<header class="bg">
-    <div class="row">
-        <div class="column">EN<i class="fa fa-sort-desc"></i></div>
-    </div>
-    <div class="column">
-        <div class="zar">ZAR<i class="fa fa-sort-desc"></i></div>
-    </div>
-    <div class="column">
-
-    </div>
-    <div class="column">
-        <div class="shipping">Free shipping for standard order over R100</div>
-    </div>
-   
-</header>
-<section class="home">
-    <img class="starter" src="img/background 1.jpg" alt="fashion picture">
-</section>
-
-
-
 <body>
-   
+	<!-- Top bar -->
+	<div class='container-fluid pre-header'>
+		<div class='container'>
+			<div class='container-item text-left money'>
+			   <i class="en">EN</i>
+			   <i class="fa fa-angle-down icon1"></i>
+			   <i class="zar">ZAR</i>
+			   <i class="fa fa-angle-down icon1"></i>
+			</div>
+			<p id="big">
+					Free shipping for standard order over R100
+			</p>
+			
+			<div class="container-item text-right socials">
+				<i class="fa fa-facebook-f facebook"></i>
+				<i class="fa fa-google-plus google"></i>
+				<i class="fa fa-twitter twitter"></i>
+				<i class="fa fa-pinterest pinterest"></i>
+			</div>
+		</div>
+	</div>
+	<!-- End Top bar -->
+
+	<!-- Navigation Bar -->
+	<div class='container-fluid nav-container'>
+		<div class='container'>
+			<nav class='navbar navbar-expand-lg navbar-light'>
+				<!-- <a class='navbar-brand' href='#'>Navbar</a> -->
+				<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+					<span class='navbar-toggler-icon'></span>
+				</button>
+				<span class="lnr lnr-magnifier search"></span> 
+				<div class='collapse navbar-collapse' id='navbarSupportedContent'>
+					<ul class='navbar-nav mr-auto'>
+						<li class='nav-item active'>
+							<a class='nav-link' href='#'>Home <span class='sr-only'>(current)</span></a>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link' href='#'>About</a>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link' href='#'>Blog</a>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link' href='#'>Contact</a>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link' href='#'>LookBook</a>
+					    </li>
+						
+						
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End Navigation Bar -->
+
+	<!-- Section -->
+	<section class='section section-one container-fluid'>
+		<div class='container'>
+			<h1>Section Container</h1>
+		</div>
+	</section>
+	<!-- End Section -->
 </body>
 </html>
