@@ -10,20 +10,142 @@
 .pre-header .container {
 	display: flex;
 }
-.nav-container {
-	background-color: #5a5a5a;
-}
-.nav-container .container {
-	padding: 0px;
-}
+/* nav bar style */
+.home {
+	width: 36px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	color: white;
+  }
+  
+  .shop {
+	width: 34px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	color: white;
+  }
+  
+  .about {
+	width: 44px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	color: white;
+  }
+  .logo{
+	width: 117px;
+	height: 21px;
+	font-family: Dosis;
+	font-size: 30px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.5px;
+	text-align: left;
+	color:white;
+  }
+  
+  .blog {
+	width: 32px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	color: white;
+  }
+  
+  .contact{
+	width: 66px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	color: white;
+  }
+  
+  .lookbook{
+	width: 77px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	color: white;
+  }
+/* containers stylying that are for the icons */
 .section-one {
 	min-height: 85vh;
-	background-color: #0a0e25;
+	background-image: url(../img/DRESS.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: inline-block;
+	
+}
+.section-two {
+	min-height: 85vh;
+	background-color: black;
+	
 }
 .pre-header .container .container-icons {
 	width: 50%;
 }
-.en {
+.big{
+	width: 90%;
+  height: 9px;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #999999;
+}
+.money{
+	width: 35%
+}
+.container{
+	position: relative;
+  }
+/* started styling my icons */
+.en  {
 	width: 13px;
 	height: 9px;
 	font-family: SourceSansPro;
@@ -36,9 +158,7 @@
 	text-align: center;
 	color: #999999;
   }
-  .container{
-	position: relative;
-  }
+  
   .icon1{
 	width: 7px;
 	height: 5px;
@@ -80,22 +200,7 @@
 		
 	}
 
-.big{
-	width: 90%;
-  height: 9px;
-  font-family: SourceSansPro;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.83;
-  letter-spacing: 2.4px;
-  text-align: left;
-  color: #999999;
-}
-.money{
-	width: 35%
-}
+
 
 .search{
 	width: 22px;
