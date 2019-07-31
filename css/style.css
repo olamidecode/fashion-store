@@ -332,5 +332,20 @@ img {
 .container picture{
 	   text-align: center;
 		max-width: 100%;
-	  
+}
+
+/* footer styling */
+.footer{
+	background-color: black;
+}
+.pic-block{
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	margin: 10px;
+	border: 5px solid black;
+
+}
+.bottom{
+	text-align: center;
 }
