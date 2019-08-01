@@ -4,7 +4,7 @@
 	padding-bottom: 15px; 
 	width: 100%;
     height: 53px;
-	background-color: #333333;
+	background-color: black;
 	  
 }
 .pre-header .container {
@@ -322,7 +322,7 @@ img {
 
 /* footer styling */
 .footer{
-	background-color: #333333;
+	background-color: black;
 }
 .pic-block{
 	width: 90px;
@@ -361,3 +361,7 @@ img {
 .container5 h3{
 	padding-top: 60px;
 }
+/* read more styling */
+/* #more{
+	display: none;
+} */
