@@ -13,6 +13,7 @@
 .footer{
     background-color: black;
 }
+/* styling my image of my shop pages */
 #img1{
     height:500px;
     padding-top:20px;
@@ -38,4 +39,10 @@ padding-top:20px;
 padding-bottom: 20px;
 margin-left: 20px;
 
+}
+.row1{
+    background-color: #999999;
+}
+h1{
+    padding-top: 40px;
 }
