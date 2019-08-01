@@ -4,7 +4,7 @@
 	padding-bottom: 15px; 
 	width: 100%;
     height: 53px;
-	background-color: black;
+	background-color: #333333;
 	  
 }
 .pre-header .container {
@@ -136,7 +136,7 @@
 .pre-header .container .container-icons {
 	width: 50%;
 }
-.big{
+#big{
 	width: 90%;
   height: 9px;
   font-family: SourceSansPro;
@@ -146,8 +146,8 @@
   font-stretch: normal;
   line-height: 1.83;
   letter-spacing: 2.4px;
-  text-align: left;
-  color: #999999;
+  text-align: center;
+  color: #ffffff;
 }
 .money{
 	width: 35%
@@ -160,6 +160,9 @@
 	position: relative;
 	text-align: center;
 	padding-top: 50px;
+  }
+  .section-three{
+	  background-color: #333333;
   }
 /* started styling my icons */
 .en  {
@@ -242,34 +245,33 @@ color: white;
 }
 .description{
 	
-		width: 597px;
-		height: 38px;
-		font-family: Dosis;
-		font-size: 50px;
-		font-weight: normal;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: 0.96;
-		letter-spacing: normal;
-		text-align: center;
-		margin-bottom: 20%;
-		margin-top: 2%;
-		padding-left: 240px;
+	height: 38px;
+	font-family: Dosis;
+	font-size: 50px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 0.96;
+	letter-spacing: normal;
+	text-align: center;
+	margin-bottom: 20%;
+	margin-top: 2%;
+		
 	  
 }
 .purpose{
-	width: 924px;
-  height: 39px;
+  /* width: 924px; */
+  height: 208px;
   font-family: SourceSansPro;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
   padding-bottom: 100px;
   color: white;
+  /* margin-left: 200px; */
 	  
 }
 
@@ -285,7 +287,7 @@ color: white;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
-	line-height: 3.2;
+	/* line-height: 3.2; */
 	letter-spacing: 1.5px;
 	text-align: center;
 	color: #ffffff;
@@ -320,7 +322,7 @@ img {
 
 /* footer styling */
 .footer{
-	background-color: black;
+	background-color: #333333;
 }
 .pic-block{
 	width: 90px;
@@ -332,4 +334,30 @@ img {
 }
 .bottom{
 	text-align: center;
+}
+
+/* styling for best street wears section */
+.container4 ul{
+	list-style: none;
+}
+.phrase{
+	padding-top:50px;
+}
+#img4{
+	width:600px;
+}
+.container4{
+	background-color: #333333;
+	color: #ffffff;
+	text-align: center;
+	
+}
+/* styling of the blog section */
+
+.container5{
+	padding: 40px;
+	text-align: center;
+}
+.container5 h3{
+	padding-top: 60px;
 }
