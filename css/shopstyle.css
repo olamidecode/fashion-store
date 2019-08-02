@@ -162,6 +162,13 @@ margin-left: 20px;
     margin-top: 40px;
     margin-left: 200px;
     margin-right: 200px;
+    background-color: #3333;
+}
+#shopbook3{
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #3333;
 }
 .line{
     padding-bottom: 20px;
@@ -187,6 +194,31 @@ margin-left: 20px;
     margin-left: 20px;
 }
 #shoe4{
+    height:370px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+/* styling of the jeans in the shop page */
+#jean1{
+    height:580px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#jean2{
+    height:398px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#jean3{
+    height:380px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#jean4{
     height:370px;
     padding-top:20px;
     padding-bottom: 20px;
