@@ -13,6 +13,118 @@
 .footer{
     background-color: black;
 }
+/* nav bar style */
+.nav{
+    padding-left: 90px;
+}
+#navbar{
+	/* padding-left: 30px; */
+	display: inline;
+}
+#navbar a{
+	text-decoration: none;
+	color: black;
+	display: inline;
+    padding-left: 50px;
+    text-align: center;
+}
+.home {
+	width: 36px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	padding-left: 20px;
+	
+  }
+  
+  .shop {
+	width: 34px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	
+  }
+  
+  .about {
+	width: 44px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	
+  }
+  .logo{
+	width: 117px;
+	height: 21px;
+	font-family: Dosis;
+	font-size: 30px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.5px;
+	text-align: left;
+	
+  }
+  
+  .blog {
+	width: 32px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	
+  }
+  
+  .contact{
+	width: 66px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+	
+  }
+  
+  .lookbook{
+	width: 77px;
+	height: 11px;
+	font-family: Dosis;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.75px;
+	text-align: left;
+
+  }
 /* styling my image of my shop pages */
 #img1{
     height:500px;
@@ -48,10 +160,35 @@ margin-left: 20px;
 }
 #shopbook{
     margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .line{
     padding-bottom: 20px;
     text-align: center;
+}
+/* styling of the shoes in the shop page */
+#shoe1{
+    height:590px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#shoe2{
+    height:398px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#shoe3{
+    height:500px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#shoe4{
+    height:370px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
 }
