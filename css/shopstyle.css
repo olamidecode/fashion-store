@@ -7,7 +7,7 @@
     padding:0px;
     border-color: transparent;
     width: 100%;
-    height: 53px;
+    /* height: 53px; */
     background-color:rgb(238, 238, 238);
 }
 .footer{
@@ -160,14 +160,14 @@ margin-left: 20px;
 }
 #shopbook{
     margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     background-color: #3333;
 }
 #shopbook3{
     margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* padding-left: 200px; */
+    padding-right: 200px;
     background-color: #3333;
 }
 .line{
@@ -176,25 +176,25 @@ margin-left: 20px;
 }
 /* styling of the shoes in the shop page */
 #shoe1{
-    height:590px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#shoe2{
-    height:398px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-}
-#shoe3{
     height:500px;
     padding-top:20px;
     padding-bottom: 20px;
     margin-left: 20px;
 }
+#shoe2{
+    height:308px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#shoe3{
+    height:410px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
 #shoe4{
-    height:370px;
+    height:310px;
     padding-top:20px;
     padding-bottom: 20px;
     margin-left: 20px;
