@@ -3,7 +3,7 @@
 	padding-top: 15px;
 	padding-bottom: 15px; 
 	width: 100%;
-    height: 53px;
+    height: 78px;
 	background-color: black;
 	  
 }
@@ -271,7 +271,7 @@
 	background-size: cover;
 	text-align: center;
 	display: inline-block;
-	
+	padding-top: 20px;
 }
 .section-two {
 	min-height: 85vh;
@@ -390,7 +390,7 @@ color: white;
 }
 .description{
 	
-	height: 38px;
+	height: 70px;
 	font-family: Dosis;
 	font-size: 50px;
 	font-weight: normal;
