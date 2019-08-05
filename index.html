@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>NATEB fashion store</title>
 	<meta charset='utf-8'>
@@ -7,33 +8,33 @@
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	<!-- bootstrap cdn link -->
-	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+		integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
 	<!-- font awsome cdn link -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- linear icons cdn -->
 	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 	<link rel='stylesheet' type='text/css' href='css/style.css'>
-	<script src="https://github.com/olamidecode/fashion-store/blob/master/js/main.js" type="text/javascript"></script>
-	<script src="https://github.com/olamidecode/fashion-store/blob/master/js/shop.js" type="text/javascript"></script>
 </head>
-   <body>
+
+<body>
 	<!-- Top bar -->
 	<div class='container-fluid pre-header'>
 		<div class='container'>
 			<div class='container-item text-left money'>
-			   <!-- <select name="lang" id="selection" class="eng">
+				<!-- <select name="lang" id="selection" class="eng">
 					<option value="english">en</option>
 					<option value="italy">IT</option>
 			   </select> -->
 				<i class="en">EN</i>
-			   <i class="fa fa-angle-down icon1"></i>
-			   <i class="zar">ZAR</i>
-			   <i class="fa fa-angle-down icon1"></i>
+				<i class="fa fa-angle-down icon1"></i>
+				<i class="zar">ZAR</i>
+				<i class="fa fa-angle-down icon1"></i>
 			</div>
 			<p id="big">
-					Free shipping for standard order over R100
+				Free shipping for standard order over R100
 			</p>
-			
+
 			<div class="container-item text-right socials">
 				<i class="fa fa-facebook-f facebook"></i>
 				<i class="fa fa-google-plus google"></i>
@@ -46,39 +47,40 @@
 	<!-- Section -->
 	<section class='section section-one container-fluid'>
 		<div class='container'>
-			
+
 			<section>
 				<div class="topnav" id="myTopnav">
 					<a href="index.html" class="active">Home</a>
-					<a href="shop.html"  class="active1" >Shop</a>
-					<a href="#"  class="active2">About</a>
-					<a href="#"  class="active3">N A T E B</a>
-					<a href="#"  class="active4" >Blog</a>
-					<a href="#"  class="active5" >Contact</a>
-					<a href="lookbook.html"  class="active6" >Lookbook</a>
+					<a href="shop.html" class="active1">Shop</a>
+					<a href="#" class="active2">About</a>
+					<a href="#" class="active3">N A T E B</a>
+					<a href="#" class="active4">Blog</a>
+					<a href="#" class="active5">Contact</a>
+					<a href="lookbook.html" class="active6">Lookbook</a>
 					<a href="cart.html"><span class="lnr lnr-cart"></span></a>
-					<a href="javascript:;" class="icon" onclick="Function2()"><i class="fa fa-bars"></i></a>
-					</div>
+					<a href="javascript:;" class="icon" id='navTrigger'><i class="fa fa-bars"></i></a>
+				</div>
 			</section>
-				  
-			
-			<article class="intro">	
+
+
+			<article class="intro">
 				<div>
-				<p class="description">WELCOME TO N A T E B FASHION WOLRD</p>
+					<p class="description">WELCOME TO N A T E B FASHION WOLRD</p>
 				</div>
 				<div>
-				<P class="purpose">
-				 Our purpose at N A T E B fashion wolrd is to empower men and women to lead bold and full lives.
-				 We believe that if you look good, you feel good. And when you feel good you can do good for others around you.
-				</P>
-				<!-- <p class="book">LookBook</p> -->
+					<P class="purpose">
+						Our purpose at N A T E B fashion wolrd is to empower men and women to lead bold and full lives.
+						We believe that if you look good, you feel good. And when you feel good you can do good for
+						others around you.
+					</P>
+					<!-- <p class="book">LookBook</p> -->
 				</div>
 				<div class="button">
-					<button id="button" type="button" >LOOKBOOK</button>
-				 </div>
-				 <a href="#advert"><i id="lookdown" class="lnr lnr-chevron-down"></i></a>
-				 </div>
-			</article>	
+					<button id="button" type="button">LOOKBOOK</button>
+				</div>
+				<a href="#advert"><i id="lookdown" class="lnr lnr-chevron-down"></i></a>
+		</div>
+		</article>
 		</div>
 	</section>
 	<!-- End Section -->
@@ -89,28 +91,28 @@
 			<hr size="2px" width="50px" text-align="center" color="#a88d7b">
 			<div class="container picture">
 				<div class="row">
-				  <div class="col-sm">
-					<img id="img1" src="img/shoe5.jpg" alt="picture of an off-white jean">
-					<p1>Nike Air Force 1 Retro white</p1> 
-					<p>R2200</p>
-				  </div>
-				  <div class="col-sm">
-					<img id="img2" src="img/shoe2.jpg" alt="picture of a light blue jean">
-					<p1>Nike Air Force SF high(olive faded)</p1>
-					<p>R340</p>
-				  </div>
-				  <!-- <div class="col-sm">
+					<div class="col-sm">
+						<img id="img1" src="img/shoe5.jpg" alt="picture of an off-white jean">
+						<p1>Nike Air Force 1 Retro white</p1>
+						<p>R2200</p>
+					</div>
+					<div class="col-sm">
+						<img id="img2" src="img/shoe2.jpg" alt="picture of a light blue jean">
+						<p1>Nike Air Force SF high(olive faded)</p1>
+						<p>R340</p>
+					</div>
+					<!-- <div class="col-sm">
 					<img id="img3" src="img/new 3.jpg" alt="picture of a black ripped jean">
 					 <p1>Beyond the feel black jean</p1>
 					 <p>R1200</p>
 				  </div> -->
 				</div>
-			  
-		</div>
+
+			</div>
 	</section>
 	<!-- End Section -->
 
-	
+
 
 	<!-- Section -->
 	<section class='section section-two container-fluid'>
@@ -119,133 +121,158 @@
 			<hr size="2px" width="50px" text-align="center" color="#666666">
 			<div class="container picture">
 				<div class="row">
-				  <div class="col-sm">
-					<img id="img1" src="img/new 1.jpg" alt="picture of an off-white jean">
-					<p1>Off white Denim jean</p1> 
-					<p>R2200</p>
-				  </div>
-				  <div class="col-sm">
-					<img id="img2" src="img/new 4.jpg" alt="picture of a light blue jean">
-					<p1>Faded blue jean</p1>
-					<p>R900</p>
-				  </div>
-				  <div class="col-sm">
-					<img id="img3" src="img/new 3.jpg" alt="picture of a black ripped jean">
-					 <p1>Beyond the feel black jean</p1>
-					 <p>R1200</p>
-				  </div>
+					<div class="col-sm">
+						<img id="img1" src="img/new 1.jpg" alt="picture of an off-white jean">
+						<p1>Off white Denim jean</p1>
+						<p>R2200</p>
+					</div>
+					<div class="col-sm">
+						<img id="img2" src="img/new 4.jpg" alt="picture of a light blue jean">
+						<p1>Faded blue jean</p1>
+						<p>R900</p>
+					</div>
+					<div class="col-sm">
+						<img id="img3" src="img/new 3.jpg" alt="picture of a black ripped jean">
+						<p1>Beyond the feel black jean</p1>
+						<p>R1200</p>
+					</div>
 				</div>
-			  
-		</div>
+
+			</div>
 	</section>
 	<!-- End Section -->
 	<!-- Section -->
 	<section class='section   container-fluid'>
-		
+
 		<div class="container4">
-				<h1>Best Street Wears Off The Top</h1>
-				<hr size="2px" width="50px" text-align="center" color="#a88d7b">
-				<div class="row">
-				  <div class="col-sm">
+			<h1>Best Street Wears Off The Top</h1>
+			<hr size="2px" width="50px" text-align="center" color="#a88d7b">
+			<div class="row">
+				<div class="col-sm">
 					<img id="img4" src="img/malik1.jpeg" alt="picture of one of our collections pieces">
-					<p1>Never to late to play line</p1> 
-					 <ul>
-					    <li>glasses:R500</li>
+					<p1>Never to late to play line</p1>
+					<ul>
+						<li>glasses:R500</li>
 						<li>Retro jacket:R400</li>
 						<li>White shorts:R300</li>
 						<li>Nike socks(black):R100</li>
 						<li>Reebook shoes:R1800</li>
 
-					 </ul>
-					
-				  </div>
-				  <div class="col-sm phrase">
-				    <p1>A whole line of fun pieces to show off your identity for fashion,we help our clients determine how they want to
-						look like.Our designers are fully fertile in skills that help shape yourview on fashion, the saying goes when you
+					</ul>
+
+				</div>
+				<div class="col-sm phrase">
+					<p1>A whole line of fun pieces to show off your identity for fashion,we help our clients determine
+						how they want to
+						look like.Our designers are fully fertile in skills that help shape yourview on fashion, the
+						saying goes when you
 						look good you feel good.So let N A T E B fashion world shape your apperrance.
 					</p1>
-					
-				  </div>
-			
-			  
-		</div>
+
+				</div>
+
+
+			</div>
 	</section>
 	<!-- End Section -->
 	<!-- Section -->
 	<section class='section   container-fluid '>
-		
-			<div class="container5">
-					<h1>Our blog</h1>
-					<hr size="2px" width="50px" text-align="center" color="#666666">
-					<div class="row">
-					  <div class="col-sm">
-						<img id="img4" src="img/blog.jpg" alt="picture of one of our collections pieces">
-					  </div>
-					  <div class="col-sm ">
-						<h3>Daily clothing for your every need</h3>
-						
-						<p>Clothing (also known as clothes, apparel and attire) is a collective term for items worn on the body. Clothing is typically made of fabrics or textiles but over time has included garments made from animal skin or other thin sheets of materials put together. 
-							The wearing of clothing is mostly restricted to human beings and is a feature of all human societies. The amount and type of clothing worn depends on gender, body type, social, and geographic considerations.
-							Clothing serves many purposes: it can serve as protection from the elements, rough surfaces, rash-causing plants, insect bites, splinters, thorns and prickles by providing a barrier between the skin and the environment.
-							Clothes can insulate against cold or hot conditions, and they can provide a hygienic barrier, keeping infectious and toxic materials away from the body.<span id="dots">...</span>
-							<span id="more">Clothing also provides protection from ultraviolet radiation.
-							Wearing clothes is also a social norm, and being deprived of clothing in front of others may be embarrassing. Not wearing clothes in public so that genitals, breasts (for women) or buttocks are visible could be considered indecent exposure.
+
+		<div class="container5">
+			<h1>Our blog</h1>
+			<hr size="2px" width="50px" text-align="center" color="#666666">
+			<div class="row">
+				<div class="col-sm">
+					<img id="img4" src="img/blog.jpg" alt="picture of one of our collections pieces">
+				</div>
+				<div class="col-sm ">
+					<h3>Daily clothing for your every need</h3>
+
+					<p>Clothing (also known as clothes, apparel and attire) is a collective term for items worn on the
+						body. Clothing is typically made of fabrics or textiles but over time has included garments made
+						from animal skin or other thin sheets of materials put together.
+						The wearing of clothing is mostly restricted to human beings and is a feature of all human
+						societies. The amount and type of clothing worn depends on gender, body type, social, and
+						geographic considerations.
+						Clothing serves many purposes: it can serve as protection from the elements, rough surfaces,
+						rash-causing plants, insect bites, splinters, thorns and prickles by providing a barrier between
+						the skin and the environment.
+						Clothes can insulate against cold or hot conditions, and they can provide a hygienic barrier,
+						keeping infectious and toxic materials away from the body.<span id="dots">...</span>
+						<span id="more">Clothing also provides protection from ultraviolet radiation.
+							Wearing clothes is also a social norm, and being deprived of clothing in front of others may
+							be embarrassing. Not wearing clothes in public so that genitals, breasts (for women) or
+							buttocks are visible could be considered indecent exposure.
 							But here at NATEB fashion world we try and balance your .</span></p>
-							<button onclick="myFunction()" id="myBtn">Read more</button>
-							
-					  </div>
-				
-				  
+					<button onclick="myFunction()" id="myBtn">Read more</button>
+
+				</div>
+
+
 			</div>
-		</section>
-		<!-- End Section -->
+	</section>
+	<!-- End Section -->
 	<footer class="footer">
 		<div class="container ">
-				<div class="row">
-				  <div class="col-sm">
+			<div class="row">
+				<div class="col-sm">
 					<h1>NATE B</h1>
-					<p><i class='fas fa-map-marker-alt'></i>    379 5th Ave  Rondeboschk, CT 7700</p>
-					<p><i class='fas fa-phone'></i>    (+1) 96 716 6879</p>
-					<p><i class='far fa-envelope'></i>  contact@nate_nonpareil.com</p>
-				  </div>
-				  <div class="col-sm">
+					<p><i class='fas fa-map-marker-alt'></i> 379 5th Ave Rondeboschk, CT 7700</p>
+					<p><i class='fas fa-phone'></i> (+1) 96 716 6879</p>
+					<p><i class='far fa-envelope'></i> contact@nate_nonpareil.com</p>
+				</div>
+				<div class="col-sm">
 					<h3>LINKS</h3>
 					<p><a href="">Products</a></p>
 					<p><a href="">featured</a></p>
 					<p><a href="">Privacy Policy</a></p>
 					<p><a href="">Blog</a></p>
-				  </div>
-				  <div class="col-sm">
-				   <h3>SHOP</h3>
-				   <p><a href="">About Us</a></p>
-				   <p><a href="">Shipping</a></p>
-				   <p><a href="">Contact</a></p>
-				   <p><a href="">Support</a></p>
-				  </div>
-				  <div class="col-sm">
-						<h3>INSTAGRAM</h3>
-						<div class="instagram">
+				</div>
+				<div class="col-sm">
+					<h3>SHOP</h3>
+					<p><a href="">About Us</a></p>
+					<p><a href="">Shipping</a></p>
+					<p><a href="">Contact</a></p>
+					<p><a href="">Support</a></p>
+				</div>
+				<div class="col-sm">
+					<h3>INSTAGRAM</h3>
+					<div class="instagram">
 						<table cellspacing="10" cellpading="10">
 							<tr>
-							<td class="pic-block"></td>
-							<td class="pic-block"></td>
-							<td class="pic-block"></td>
-							<td class="pic-block"></td>
-						</tr>
-						<tr>
-							<td class="pic-block"></td>
-							<td class="pic-block"></td>
-							<td class="pic-block"></td>
-							<td class="pic-block"></td>
-						</tr>
+								<td class="pic-block"></td>
+								<td class="pic-block"></td>
+								<td class="pic-block"></td>
+								<td class="pic-block"></td>
+							</tr>
+							<tr>
+								<td class="pic-block"></td>
+								<td class="pic-block"></td>
+								<td class="pic-block"></td>
+								<td class="pic-block"></td>
+							</tr>
 						</table>
-						</div>
-				 </div>
+					</div>
 				</div>
-			  </div>
-</footer>
-<div class="bottom">
-				  <p>Copyright © 2019 Designed by nate_nonpareil. All rights reserved.</p>
-			  </div>
-  </body>
-</html> 
+			</div>
+		</div>
+	</footer>
+	<div class="bottom">
+		<p>Copyright © 2019 Designed by nate_nonpareil. All rights reserved.</p>
+	</div>
+	<script src="https://github.com/olamidecode/fashion-store/blob/master/js/main.js" type="text/javascript"></script>
+	<script src="https://github.com/olamidecode/fashion-store/blob/master/js/shop.js" type="text/javascript"></script>
+</body>
+<script>
+	document.getElementById('navTrigger').addEventListener('click', function (e) {
+		e.preventDefault();
+		var x = document.getElementById("myTopnav");
+		if (x.className == "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	});
+</script>
+
+</html>
