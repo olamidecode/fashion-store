@@ -228,4 +228,12 @@ margin-left: 20px;
 	padding-left: 60px;
 
 }
+/* styling of lookbook */
+#lookbook1{
+    background-color:black; 
+    text-align: center;
+}
+.containerlook{
+    display: inherit;
+}
 
