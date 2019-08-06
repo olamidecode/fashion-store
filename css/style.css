@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 .pre-header {
 	
 	padding-top: 15px;
@@ -525,6 +528,7 @@ img {
 	-moz-animation: bounce 2s infinite;
 	-webkit-animation: bounce 2s infinite;
 	animation: bounce 2s infinite;
+	
   }
   
   @keyframes bounce {
@@ -538,4 +542,33 @@ img {
 	  transform: translateY(-15px);
 	}
   }
+  .arrow {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+  }
+  .arrow a{
+	color: #333333;
+	text-decoration: none;
+  }
+  /* the arrow at the footer */
+  .bounce1 {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+	
+  }
+  
+  @keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+	  transform: translateY(0);
+	}
+	40% {
+	  transform: translateY(-30px);
+	}
+	60% {
+	  transform: translateY(-15px);
+	}
+  }
+  
   
