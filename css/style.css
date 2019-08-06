@@ -436,6 +436,7 @@ color: white;
 	letter-spacing: 1.5px;
 	text-align: center;
 	color: #ffffff;
+	margin-bottom: 30px;
 	}
 #lookdown{
 	   width: 29px;
@@ -510,3 +511,31 @@ img {
 /* #more{
 	display: none;
 } */
+.arrow {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+  }
+  .arrow a{
+	color: white;
+	text-decoration: none;
+  }
+  
+  .bounce {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+	  transform: translateY(0);
+	}
+	40% {
+	  transform: translateY(-30px);
+	}
+	60% {
+	  transform: translateY(-15px);
+	}
+  }
+  
