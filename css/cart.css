@@ -44,7 +44,7 @@
 /* Apply clearfix in a few places */
 /* Apply dollar signs */
 .product .product-price:before, .product .product-line-price:before, .totals-value:before {
-  content: '$';
+  content: 'R';
 }
 /* Body/Header stuff */
 body {
@@ -194,7 +194,7 @@ label {
     margin-top: 10px;
   }
   .product .product-line-price:before {
-    content: 'Item Total: $';
+    content: 'Item Total: R';
   }
   .totals .totals-item label {
     width: 60%;
@@ -209,6 +209,7 @@ label {
   background-attachment: fixed;
   text-align: center;
   padding-bottom: 20px;
+  background-color: #333333;
  }
  .topnav a {
   color: white;
