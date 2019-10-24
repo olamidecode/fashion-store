@@ -1,344 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>OLAMIDE FASHION STORE</title>
+  <meta charset="UTF-8">
+  <title>Cart Example</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/cart_style.css">
+
 </head>
 <body>
-    <section>
-        <div class="topnav" id="myTopnav">
-          <a href="index.html" class="active">Home</a>
-          <a href="shop.html"  class="active1" >Shop</a>
-          <a href="#"  class="active2">About</a>
-          <a href="#"  class="active3">OLAMIDE</a>
-          <a href="#"  class="active4" >Blog</a>
-          <a href="#"  class="active5" >Contact</a>
-          <a href="lookbook.html"  class="active6" >Lookbook</a>
-          <span class="lnr lnr-cart"></span>
-          <a href="javascript:;" class="icon" id='navTrigger'><i class="fa fa-bars"></i></a>
-          </div>
-      </section>
-    <h1>Shopping Cart</h1>
-
-<div class="shopping-cart">
-
-  <div class="column-labels">
-    <label class="product-image">Image</label>
-    <label class="product-details">Product</label>
-    <label class="product-price">Price</label>
-    <label class="product-quantity">Quantity</label>
-    <label class="product-removal">Remove</label>
-    <label class="product-line-price">Total</label>
-  </div>
-
-  <div class="product">
-    <div class="product-image">
-      <img src="img/malik2.jpeg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Never to late to play 1</div>
-      <p class="product-description">
-        <ul>
-        <li>colourfulsummer shirt:R4000</li>
-        <li>Retro black jeans: R600</li>
-        <li>Set of chains:R900 each </li>
-       </ul>
-  </p>
-    </div>
-    <div class="product-price">6400</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">6400</div>
-  </div>
-
-  <div class="product">
-    <div class="product-image">
-      <img src="img/malik3.jpeg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Never to late to play 2</div>
-      <p class="product-description">
-          <ul>
-              <li>orange and black check shirt:R300</li>
-              <li>White inner shirt:R200</li>
-              <li>Adidas original men track pants: R800</li>
-              <li>Reebok white shoes:R1800 </li>
-          </ul>
-      </p>
-    </div>
-    <div class="product-price">3100</div>
-    <div class="product-quantity">
-      <input type="number" value="1" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">3100</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/daniel.jpeg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Never to late to play 3</div>
-      <p class="product-description">
-          <ul>
-              <li>Adidas half cap:R300</li>
-              <li>Inner white t-shirt:R200</li>
-              <li>Full suit:R2000</li>
-              <li>Reebok white shoes:R1800</li>
-              <li>classic socks:R100</li>
-            </ul>
-      </p>
-    </div>
-    <div class="product-price">4500</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">4500</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/malik1.jpeg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Never to late to play 4</div>
-      <p class="product-description">
-          <ul>
-              <li>glasses:R500</li>
-              <li>Retro jacket:R400</li>
-              <li>White shorts:R300</li>
-              <li>Nike socks(black):R100</li>
-              <li>Reebook shoes:R1800</li>
+  <!-- Top bar -->
+	<div class='container-fluid pre-header'>
+      <div class='container'>
+        <div class='container-item text-left money'>
+          <!-- <select name="lang" id="selection" class="eng">
+            <option value="english">en</option>
+            <option value="italy">IT</option>
+           </select> -->
+          <i class="en">EN</i>
+          <i class="fa fa-angle-down icon1"></i>
+          <i class="zar">ZAR</i>
+          <i class="fa fa-angle-down icon1"></i>
+        </div>
+        <p id="big">
+          Free shipping for standard order over R100
+        </p>
   
-            </ul>
-      </p>
+        <div class="container-item text-right socials">
+          <i class="fa fa-facebook-f facebook"></i>
+          <i class="fa fa-google-plus google"></i>
+          <i class="fa fa-twitter twitter"></i>
+          <i class="fa fa-pinterest pinterest"></i>
+        </div>
+      </div>
     </div>
-    <div class="product-price">3100</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
+    <!-- End Top bar -->
+    <!-- Section -->
+    <section class='section section-one container-fluid'>
+      <div class='container'>
+  
+        <section>
+          <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="shop.html" class="active1">Shop</a>
+            <a href="#" class="active2">About</a>
+            <a href="#" class="active3">OLAMIDE</a>
+            <a href="#" class="active4">Blog</a>
+            <a href="#" class="active5">Contact</a>
+            <a href="lookbook.html" class="active6">Lookbook</a>
+            <a href="cart.html"><span class="lnr lnr-cart"></span></a>
+            <a href="javascript:;" class="icon" id='navTrigger'><i class="fa fa-bars"></i></a>
+          </div>
+        </section>
+  
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-default navbar-inverse no-corners">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand" href="#"><img src="https://tangible.st.imagecentre.co.nz/static/img/tangible-logo.png"></a>
     </div>
-    <div class="product-line-price">3100</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/new 1.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Off white ripped jeans</div>
-      <p class="product-description">
-          We had a colaboation with off white to create a retro fit jean that makes you feel comfortable with every wear,made speacially to stand out with the off
-           white tag hanging from the side.with newly built in technology to prevent fading.
-      </p>
-    </div>
-    <div class="product-price">2400</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">2400</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/new2.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Full black plain jeans</div>
-      <p class="product-description">
-          The jean has a unique feature of being hand crafted to fit your style ,it has the purest cotton fibres.
-          Its easy to wash,dry and wear without any hassels of fading .
-      </p>
-    </div>
-    <div class="product-price">800</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">800</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/new 4.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Pure blue jeans </div>
-      <p class="product-description">
-          The jean was inspired from the 90s to give a nice look and a blending of the colours so they sit right in with each other .
-          easy to wash ,not to tear after 4years . the design was also inspired by the young youhs looking for new style in jeans.
-          not the traditional old one toned colours.
-      </p>
-    </div>
-    <div class="product-price">1200</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">1200</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/new 3.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Retro black faded</div>
-      <p class="product-description">
-        We had a colaboation with off Retro fits to create a retro fit jean that makes you feel comfortable with every wear,made speacially to stand out with the bages
-        tag along your leg from the side.with newly built in technology to prevent fading.
-      </p>
-    </div>
-    <div class="product-price">900</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">900</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/shoe1.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Nike air force 1 red/black</div>
-      <p class="product-description">
-          The Air Force 1 (or AF1 or AF-1) was never originally called the Air Force. The name is a reference to Air Force One, the plane that carries the President of the United States. The shoes are sold in 6 different styles, low, mid,superlow, high and super high.
-      </p>
-    </div>
-    <div class="product-price">1500</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">1500</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/shoe2.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Nike air force sf faded olive green</div>
-      <p class="product-description">
-        The Nike SF Air Force 1 Mid is an iteration of its high-top predecessor, which most sneaker fans find more comfortable to wear and use. It has a modern military style that the majority of the reviewers found unique and very fashionable. This kick can be customized through the brand's NikeiD site.
-      </p>
-    </div>
-    <div class="product-price">2400</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">2400</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/shoe3.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Nike air force sf pure black</div>
-      <p class="product-description">
-        The Nike SF Air Force 1 Mid is an iteration of its high-top predecessor, which most sneaker fans find more comfortable to wear and use. It has a modern military style that the majority of the reviewers found unique and very fashionable. This kick can be customized through the brand's NikeiD site.
-      </p>
-    </div>
-    <div class="product-price">2400</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">2400</div>
-  </div>
-  <div class="product">
-    <div class="product-image">
-      <img src="img/shoe5.jpg">
-    </div>
-    <div class="product-details">
-      <div class="product-title">Pure white air force 1</div>
-      <p class="product-description">
-          The Air Force is a range of athletic shoes made by Nike, Inc. that began with the Air Force 1 and went on to include the Air Force 2, Air Force 3, Air Force STS, Air Force 5, Air Force XXV and Air Force 09. ... The shoe is offered in low, mid and high-top.
-      </p>
-    </div>
-    <div class="product-price">1200</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">1200</div>
-  </div>
 
-  <div class="totals">
-    <div class="totals-item">
-      <label>Subtotal</label>
-      <div class="totals-value" id="cart-subtotal">71.97</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="nav navbar-nav navbar-right">
+        <button type="button" data-cart-toggle class="btn btn-default navbar-btn">Cart <span class="badge" data-cart-item-count>2</span></button>
+      </div>
     </div>
-    <div class="totals-item">
-      <label>Tax (5%)</label>
-      <div class="totals-value" id="cart-tax">8.90</div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<div data-cart-products class="container"> 
+  <div class="row">
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm1.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Black Tur Neck</h3>
+          <p>R1500</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm1.jpg" data-cart-name=">Black Turtle Neck" data-cart-price="R1500" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
     </div>
-    <div class="totals-item">
-      <label>Shipping</label>
-      <div class="totals-value" id="cart-shipping">100</div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm2.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Cotton Turtle Neck</h3>
+          <p>R1400</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm2.jpg" data-cart-name="Cotton Turtle Neck" data-cart-price="R1400" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
     </div>
-    <div class="totals-item totals-item-total">
-      <label>Grand Total</label>
-      <div class="totals-value" id="cart-total">90.57</div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm3.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Brown Turtle Neck</h3>
+          <p>R2700</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm3.jpg" data-cart-name="Brown Turtle Neck" data-cart-price="R2700" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm4.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Cream Neck</h3>
+          <p>R1000</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm4.jpg" data-cart-name="Cream Turtle Neck" data-cart-price="R1000" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm5.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Sweat Shirt</h3>
+          <p>R1900</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm5.jpg" data-cart-name="White Sweat Shirt" data-cart-price="R1900" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm6.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>White Hoodie</h3>
+          <p>R2000</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm6.jpg" data-cart-name="White Hoodie" data-cart-price="R2000" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm7.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Zip up Neck</h3>
+          <p>R5000</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm7.jpg" data-cart-name="Zip up Turtle Neck" data-cart-price="R5000" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm9.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Sheep jacket</h3>
+          <p>R5000</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm9.jpg" data-cart-name="Sheep jacket" data-cart-price="R5000" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm10.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Grey Jacket</h3>
+          <p>R5000</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm10.jpg" data-cart-name="Grey Jacket" data-cart-price="R5000" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm11.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Strip Top and Skinny pants</h3>
+          <p>R5000</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm11.jpg" data-cart-name="Strip Top and Skinny pants" data-cart-price="R5000" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm12.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Checked Shirt</h3>
+          <p>R5000</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm12.jpg" data-cart-name="Checked Shirt" data-cart-price="R5000" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 col-md-3" data-cart-product>
+      <div class="thumbnail">
+        <img data-image src="img/hm8.jpg" alt="thumbnail">
+        <div class="caption">
+          <h3>Grey top and Brown skinny pants</h3>
+          <p>R3400</p>
+          <p><a href="#" class="btn btn-primary" data-cart-thumb="img/hm8.jpg" data-cart-name="Grey top and Brown skinny pants" data-cart-price="R3400" data-cart-add="true" role="button">Add to cart</a></p>
+        </div>
+      </div>
     </div>
   </div>
-      
-      <button class="checkout">Checkout</button>
-
 </div>
 
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-<script src="/js/cart.js"></script>
-<link href="css/cart.css" rel="stylesheet">
+
+
+<div data-cart class="cart panel panel-primary no-corners expanded">
+  <div class="panel-heading no-corners">
+    <h3>Your cart</h3>
+  </div>
+  <div data-cart-items-container class="panel-body">
+    <div data-cart-item class="cart-item row template">
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img data-cart-thumb src="" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 data-cart-name></h4>
+        <h5 data-cart-price></h5>
+        <button class="btn btn-warning" data-cart-remove>Remove</button>
+      </div>
+    </div>
+    
+    <div data-cart-item class="cart-item row">
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img src="img/hm4.jpg" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4>Dish</h4>
+        <h5>$24.99</h5>
+        <button class="btn btn-warning" data-cart-remove>Remove</button>
+      </div>
+    </div>
+
+    <div data-cart-item class="cart-item row">
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img src="img/hm4.jpg" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4>Dish</h4>
+        <h5>$24.99</h5>
+        <button class="btn btn-warning" data-cart-remove>Remove</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container4 ">
+    <div class="row">
+      <div class="col-sm">
+        <h1>FASHION STORE</h1>
+        <p><i class='fas fa-map-marker-alt'></i> 24 Wemyss road Rugby</p>
+        <p><i class='fas fa-phone'></i> (+27) 788212452 </p>
+        <p><i class='far fa-envelope'></i> contact@olaakinde16@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="bottom">
+  <p>Copyright © 2019 Designed by Olamide Akinde. All rights reserved.</p>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="js/cart_js.js"></script>
+
 </body>
 </html>

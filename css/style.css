@@ -6,7 +6,7 @@ html{
 	padding-top: 15px;
 	padding-bottom: 15px; 
 	width: 100%;
-    height: 78px;
+    height: 50px;
 	background-color: black;
 	  
 }
@@ -18,7 +18,7 @@ html{
     overflow: hidden;
     background-attachment: fixed;
     text-align: center;
-    padding-bottom: 20px;
+	padding-bottom: 20px;
    }
    .topnav a {
     color: white;
@@ -268,7 +268,7 @@ html{
   }
 /* containers stylying that are for the icons */
 .section-one {
-	min-height: 85vh;
+	max-height: 2000vh;
 	background-image: url(../img/fashion\ 2.jpeg);
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -308,6 +308,8 @@ html{
 	position: relative;
 	text-align: center;
 	padding-top: 50px;
+	margin-top: 40px;
+    margin-bottom: 50px
   }
   .section-three{
 	  background-color: #333333;
@@ -501,6 +503,9 @@ img {
 	background-color: #333333;
 	color: #ffffff;
 	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	padding-top: 60px;
 	
 }
 /* styling of the blog section */
@@ -550,7 +555,7 @@ img {
 	margin-bottom: 50px;
   }
   .arrow a{
-	color: #333333;
+	color: #a88d7b;
 	text-decoration: none;
   }
   /* the arrow at the footer */

@@ -1,496 +1,500 @@
-#top-footer{
-    line-height: 1.83;
-    letter-spacing: 2.4px;
-    text-align: center;
-    border-color: transparent;
-    width: 100%;
-    background-color:rgb(238, 238, 238);
-}
-.footer{
-    background-color: black;
-}
-.table{
+  #top-footer{
+  line-height: 1.83;
+  letter-spacing: 2.4px;
+  text-align: center;
+  border-color: transparent;
+  width: 100%;
+  background-color:rgb(238, 238, 238);
+  }
+  .footer{
+  background-color: black;
+  }
+  .table{
   background-color: #333333;
   color: white;
-}
-#firstone{
+  }
+  #firstone{
   width: 30%;
   word-spacing: 40px;
-}
-#secondone{
+  }
+  #secondone{
   width: 99%;
-}
-/* nav bar style */
-.topnav {
-    overflow: hidden;
-    background-attachment: fixed;
-    text-align: center;
-    padding-bottom: 80px;
-    background-color: black;
-   }
-   .topnav a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-family: 'Dosis', sans-serif;
-   }
-   /*
-   .topnav a:hover {
-   } */
-   .topnav a.active {
-    width: 36px;
-    height: 11px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
+  }
+  /* nav bar style */
+  .topnav {
+  overflow: hidden;
+  background-attachment: fixed;
+  text-align: center;
+  padding-bottom: 80px;
+  background-color: black;
+  }
+  .topnav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-family: 'Dosis', sans-serif;
+  }
+  /*
+  .topnav a:hover {
+  } */
+  .topnav a.active {
+  width: 36px;
+  height: 11px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color:white;
+  padding-right:54px;
+  }
+  .topnav a.active1{
+  width: 34px;
+  height: 11px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: white;
+  padding-right:55px;
+  }
+  .topnav a.active2{
+  width: 44px;
+  height: 11px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: white;
+  padding-right:50px;
+  }
+  .topnav a.active3{
+  width: 117px;
+  height: 21px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: white;
+  padding-right:48px;
+  }
+  .topnav a.active4{
+  width: 32px;
+  height: 11px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: white;
+  padding-right:53px;
+  }
+  .topnav a.active5{
+  width: 66px;
+  height: 11px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color:white;
+  padding-right:49px;
+  }
+  .topnav a.active6{
+  width: 77px;
+  height: 11px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: white;
+  }
+  .topnav .icon {
+  display: none;
+  padding-right: 35px;
+  }
+  /* NAVBAR MEDIA Queries */
+  @media screen and (max-width: 800px) {
+  .topnav a:not(.active3) {display: none;}
+  .topnav a.icon {
+    float: right;
+    position: relative;
+    margin: auto;
+    display: block;
+    transition: 0.8s;
+    padding-top: -15px;
+  }
+  .topnav .active3{
+  float: left;
+  padding-bottom:15px;
+  display: inline-flex;
+  padding-left: 10px;
+  }
+  }
+  @media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a{
+    float: none;
+    display: block;
     text-align: left;
-    color:white;
-    padding-right:54px;
-   }
-   .topnav a.active1{
-    width: 34px;
-    height: 11px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color: white;
-    padding-right:55px;
-   }
-   .topnav a.active2{
-    width: 44px;
-    height: 11px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color: white;
-    padding-right:50px;
-   }
-   .topnav a.active3{
-    width: 117px;
-    height: 21px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    text-align: left;
-    color: white;
-    padding-right:48px;
-   }
-   .topnav a.active4{
-    width: 32px;
-    height: 11px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color: white;
-    padding-right:53px;
-   }
-   .topnav a.active5{
-    width: 66px;
-    height: 11px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color:white;
-    padding-right:49px;
-   }
-   .topnav a.active6{
-    width: 77px;
-    height: 11px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color: white;
-   }
-   .topnav .icon {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+  }
+  .topnav.responsive .active3{
     display: none;
-    padding-right: 35px;
-   }
-   /* NAVBAR MEDIA Queries */
-   @media screen and (max-width: 800px) {
-    .topnav a:not(.active3) {display: none;}
-    .topnav a.icon {
-      float: right;
-      position: relative;
-      margin: auto;
-      display: block;
-      transition: 0.8s;
-      padding-top: -15px;
-    }
-   .topnav .active3{
-    float: left;
-    padding-bottom:15px;
-    display: inline-flex;
-    padding-left: 10px;
-   }
-    }
-   @media screen and (max-width: 800px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a{
-      float: none;
-      display: block;
-      text-align: left;
-      padding-top: 15px;
-      padding-bottom: 5px;
-      padding-left: 20px;
-    }
-    .topnav.responsive .active3{
-      display: none;
-    }
-}
+  }
+  }
 
 .home {
-	width: 36px;
-	height: 11px;
-	font-family: Dosis;
-	font-size: 15px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 0.75px;
-	text-align: left;
-	padding-left: 20px;
-	
-  }
-  
-  .shop {
-	width: 34px;
-	height: 11px;
-	font-family: Dosis;
-	font-size: 15px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 0.75px;
-	text-align: left;
-	
-  }
-  
-  .about {
-	width: 44px;
-	height: 11px;
-	font-family: Dosis;
-	font-size: 15px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 0.75px;
-	text-align: left;
-	
-  }
-  .logo{
-	width: 117px;
-	height: 21px;
-	font-family: Dosis;
-	font-size: 30px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 1.5px;
-	text-align: left;
-	
-  }
-  
-  .blog {
-	width: 32px;
-	height: 11px;
-	font-family: Dosis;
-	font-size: 15px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 0.75px;
-	text-align: left;
-	
-  }
-  
-  .contact{
-	width: 66px;
-	height: 11px;
-	font-family: Dosis;
-	font-size: 15px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 0.75px;
-	text-align: left;
-	
-  }
-  
-  .lookbook{
-	width: 77px;
-	height: 11px;
-	font-family: Dosis;
-	font-size: 15px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 0.75px;
-	text-align: left;
+  width: 36px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+  padding-left: 20px;
 
-  }
-/* styling my image of my shop pages */
-#img1{
-    height:500px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 14px;
 }
+
+.shop {
+  width: 34px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+
+}
+
+.about {
+  width: 44px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+
+}
+.logo{
+  width: 117px;
+  height: 21px;
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+
+}
+
+.blog {
+  width: 32px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+
+}
+
+.contact{
+  width: 66px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+
+}
+
+.lookbook{
+  width: 77px;
+  height: 11px;
+  font-family: Dosis;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  text-align: left;
+
+}
+  /* styling my image of my shop pages */
+#img1{
+  height:556px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 14px;
+}
+  
 #img2{
-     height:562px;
-     padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 14px;
-     
+   height:562px;
+   padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 14px;
+   
 }
 #img3{
-     height: 650px;
-     padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 14px;
+  height: 564px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 14px;
 }
 #img4{
-height: 562px;
-padding-top:20px;
-padding-bottom: 20px;
-margin-left: 14px;
+  height: 562px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 14px;
 
 }
 .row1{
-    background-color: #999999;
+  background-color: #999999;
 }
 #shopbook ul{
-    padding-top: 50px;
+  padding-top: 50px;
 }
 #shopbook{
-    /* margin-top: 1em; */
-    background-color: #333333;
-    color: white;
+  /* margin-top: 1em; */
+  background-color: #333333;
+  color: white;
 }
 #shopbook3{
-    margin-top: 40px;
-    background-color: #333333;
-    color: white;
+  margin-top: 40px;
+  background-color: #333333;
+  color: white;
 }
 .line{
-    padding-bottom: 20px;
-    text-align: center;
+  padding-bottom: 20px;
+  text-align: center;
 }
-/* styling of the shoes in the shop page */
+  /* styling of the shoes in the shop page */
 #shoe1{
-    height:500px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 3px;
+  height:552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 #shoe2{
-    height:300px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 5px;
+  height:552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 #shoe3{
-    height:410px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 2px;
+  height:552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 #shoe4{
-    height:300px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 2px;
+  height:552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 /* styling of the jeans in the shop page */
 #jean1{
-    height:480px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 7px;
+  height:552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 #jean2{
-    height:398px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 8px;
+  height:552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 #jean3{
-    height:380px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
+  height:552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 #jean4{
-    height:370px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
+  height: 552px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
 }
 .cart{
-	padding-left: 60px;
+padding-left: 60px;
 
 }
 /* styling of lookbook */
 #lookbook1{
-   background-color: #333333;
-   color: white;
-   text-align: center;
+ background-color: #333333;
+ color: white;
+ text-align: center;
 }
 .containerlook{
-    display: inherit;
+  display: inherit;
 }
 /* google font styling */
 h1,h2,h3,h4{
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /* styling of my pagination */
 .pagination {
-    display: inline-block;
-    padding-left: 70%;
-  }
-  .pagination1 {
-    display: inline-block;
-    /* padding-left: 70%; */
-  }
-  .pagination1 a {
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  .pagination a {
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  .pagination1 a.active {
-    font-weight: bold;
-    color: white;
-  }
-  .pagination a.active {
-    font-weight: bold;
-    color: white;
-  }
-  .pagination1 a:hover:not(.active) {background-color: #ddd;}
-  .pagination a:hover:not(.active) {background-color: #ddd;}
-  #one {
-    width: 6px;
-    height: 10px;
-    font-family: 'Source Sans Pro';
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--black-three);
-  }
-  #two{
-    width: 8px;
-    height: 10px;
-    font-family: 'Source Sans Pro';
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--brownish-grey);
-  }
-  #three{
-    width: 8px;
-    height: 10px;
-    font-family: 'Source Sans Pro';
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--brownish-grey);
-  }
+  display: inline-block;
+  padding-left: 70%;
+}
+.pagination1 {
+  display: inline-block;
+  /* padding-left: 70%; */
+}
+.pagination1 a {
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a {
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination1 a.active {
+  font-weight: bold;
+  color: white;
+}
+.pagination a.active {
+  font-weight: bold;
+  color: white;
+}
+.pagination1 a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+#one {
+  width: 6px;
+  height: 10px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black-three);
+}
+#two{
+  width: 8px;
+  height: 10px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--brownish-grey);
+}
+#three{
+  width: 8px;
+  height: 10px;
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--brownish-grey);
+}
   
-  #right{
-    width: 7px;
-    height: 11px;
-    font-family: FontAwesome;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--brownish-grey);
-  }
+#right{
+  width: 7px;
+  height: 11px;
+  font-family: FontAwesome;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--brownish-grey);
+}
  /* lookbook image styling */
- #my1{
+#my1{
   height: 290px;
   padding-top: 20px;
   padding-bottom: 20px;
-  
- }
 
- #my2{
+}
+
+#my2{
+  height: 420px;
+  padding-top: 50px;
+  padding-bottom: 55px;
+  width: 278px;
+
+}
+#my3{
+  height: 474px;
+  padding-top: 49px;
+  padding-bottom: 105px;
+  width: 300px;
+
+}
+#my4{
   height:550px;
   padding-top: 20px;
   padding-bottom: 20px;
-  
- }
- #my3{
-  height:550px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  
- }
- #my4{
-  height:550px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  
- }
+
+}
+
